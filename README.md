@@ -1,5 +1,7 @@
 # Mental Health Chat Bot Readme
 
+Report is accessible to Lion Mail accoutn at : https://docs.google.com/document/d/1-_UrFEylkIIsJ3JS4Fiv9_nquD0LjlEzGezDqQX1Cjk/edit?usp=sharing
+
 The goal of this project is to develop a prototype for the fine-tuning of the Falcon 7 billion LLM (Large Language Model) using a dataset focused on mental health conversations. The project utilizes LORA ( Low Rank Adaptation )  for fine-tuning the LLM, employing the Hugging Face Supervised Fine Tuning approach. Techniques such as Parameter Efficient Fine Tuning (PEFT) are incorporated.
 
 **Note:** Results in the notebook may vary from those in the report.

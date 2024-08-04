@@ -1,6 +1,10 @@
 # Mental Health Chat Bot Readme
 
-Report is accessible here : [https://docs.google.com/document/d/1-_UrFEylkIIsJ3JS4Fiv9_nquD0LjlEzGezDqQX1Cjk/edit?usp=sharing](https://drive.google.com/file/d/1OwuZ_6XY4B8sf_DkZdnPpLak0vU-7M2K/view?usp=sharing)
+Report is accessible at : [https://docs.google.com/document/d/1-_UrFEylkIIsJ3JS4Fiv9_nquD0LjlEzGezDqQX1Cjk/edit?usp=sharing](https://drive.google.com/file/d/1OwuZ_6XY4B8sf_DkZdnPpLak0vU-7M2K/view?usp=sharing)
+
+Fine-tuned model is available at: [Falcon 7B Mental Health LORA](https://huggingface.co/vkamal/falcon_7b_instruct_trained_mental_health_lora)
+
+Results available at: [WandB - Fine Tuner](https://api.wandb.ai/links/fine-tuner/y4nxzle7)
 
 The goal of this project is to develop a prototype for the fine-tuning of the Falcon 7 billion LLM (Large Language Model) using a dataset focused on mental health conversations. The project utilizes LORA ( Low Rank Adaptation )  for fine-tuning the LLM, employing the Hugging Face Supervised Fine Tuning approach. Techniques such as Parameter Efficient Fine Tuning (PEFT) are incorporated.
 
@@ -31,7 +35,3 @@ The model was trained using the Hugging Face LORA & PEFT libraries.
 | sequence_length                             | 1024                                                 |
 | maximum steps                               | 600                                                 |
 | Training Time                               | 6 hours                                             |
-
-Fine-tuned model is available at: [Falcon 7B Mental Health LORA](https://huggingface.co/vkamal/falcon_7b_instruct_trained_mental_health_lora)
-
-Results available at: [WandB - Fine Tuner](https://api.wandb.ai/links/fine-tuner/y4nxzle7)
